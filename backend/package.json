@@ -1,11 +1,14 @@
 {
+  "engines":{
+    "node":"v20.18.0"
+  },
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon src/app.js",
-    "start": "node src/app.js",
+    "start": "node app.js",
     "build": "echo 'No build step needed for backend'",
     "prod": "pm2 src/app.js"
   },
