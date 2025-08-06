@@ -5,11 +5,15 @@ import {createServer} from "node:http";
 
 import {Server} from "socket.io";
 
-import monngoose from "mongoose";
 import connectToSocket from "./src/controllers/socketManager.js";
 import cors from "cors";
 import userRoutes from "./src/routes/users.routes.js"
 import newUserRoutes from "./src/routes/users.routes.js"
+
+import path from "path";
+import { fileURLToPath } from "url";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app=express();
 const server=createServer(app);
