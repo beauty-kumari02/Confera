@@ -437,7 +437,7 @@ export default function VideoMeetComponent() {
       addMessage(data, sender, socketIdSender);
     });
   }
-}, []);
+}, []);//added this
 
     let sendMessage = () => {
         console.log(socketRef.current);
