@@ -18,6 +18,7 @@ It provides features like sign-up/sign-in authentication, real-time screen shari
 ## Tech Stack  
 - *Frontend:* React.js  
 - *Backend:* Node.js  
-- *Real-time Communication:* Socket.io, WebRTC  
+- *Real-time Communication:* Socket.io, WebRTC
+- *Database:* MongoDB
  
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
